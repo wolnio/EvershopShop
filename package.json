@@ -1,0 +1,18 @@
+{
+  "name": "evershop-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "evershop install",
+    "build": "evershop build",
+    "start": "evershop start"
+  },
+  "author": "wolnio",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.20.2",
+    "@evershop/core": "^2.0.2-alpha.5"
+  }
+}
